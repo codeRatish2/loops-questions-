@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function countString(str, letter){
+
+              //  creating regex
+               const re = new RegExp(letter, 'g');
+
+               //   matching thr pattern
+               const count = str.match (re).length;
+               return count;
+
+                //   take input from the user
+               const string = prompt('enter a string ');
+               const letterTocheck = prompt('enter a letter');
+
+                // passing parameters and calling function
+              const result = countString(string, letterTocheck);
+              
+             console.log(result);
+
+
+            }
+        </script>
+    </body>
+</html>
