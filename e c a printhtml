@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            //   e c a print, m v h print
+
+            var string = "abcde"
+            var count = 0 ;
+
+            for ( var i=0; string[i]!= undefined;i++){
+                        ++count;
+            } 
+            console.log(count);
+
+            for (var i = count; i >= 0; i-- ){
+                i--;
+                console.log(string[i]);
+
+            }
+             
+            // var name = "shivam"
+            // var count = 0 ;
+
+            // for ( var i=0; name[i]!= undefined;i++){
+            //             ++count;
+            // } 
+            // console.log(count);
+
+            // for (var i = count; i >= 0; i-- ){
+            //     i--;
+            //     console.log(name[i]);
+
+            // }
+
+
+        </script>  
+    </body>
+</html>    
